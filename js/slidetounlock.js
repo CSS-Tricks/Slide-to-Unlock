@@ -7,7 +7,7 @@ $(function() {
 			if (ui.position.left > 550) {
 				$("#well").fadeOut();
 			} else {
-			    // Apparently Safari isn't allowing partial opacity on text with background clip? Not sure.
+			    // Apparently Safari doesn't allow partial opacity on text with background clip? Not sure.
 				// $("h2 span").css("opacity", 100 - (ui.position.left / 5))
 			}
 		},
